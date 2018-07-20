@@ -1,9 +1,13 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        displayHighScorePosition("Same7", calculateHighScorePosition(700));
+        displayHighScorePosition("Cherie", calculateHighScorePosition(1000));
         printMegaBytesAndKiloBytes(2050);
         printMegaBytesAndKiloBytes(5000);
         bark(true, 5);
         bark(false, 15);
+        System.out.println(isLeapYear(3000));
+        System.out.println(isLeapYear(2000));
     }
     private static void displayHighScorePosition(String playerName, int playerPosition) {
         System.out.println(playerName + " managed to get into a position " + playerPosition + " on the high score table");
@@ -34,5 +38,14 @@ public class Main {
             System.out.println(false);
         }
         System.out.println(barking && ((hourOfDay >= 0 && hourOfDay < 8) || (hourOfDay > 22 && hourOfDay <= 23)));
+    }
+    private static boolean isLeapYear(int year) {
+        if (year < 1 || year > 9999) {
+            return false;
+        }
+        int rest4 = year % 4;
+        int rest100 = year % 100;
+        int rest400 = year % 400;
+        return (rest4 == 0 && rest100 != 0) || rest400 == 0;
     }
 }
