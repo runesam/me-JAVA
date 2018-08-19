@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c0dd91-9eec-4862-bdf1-cddc6a8750cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/me-JAVA/Switch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/me-JAVA/MethodOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/me-JAVA/MethodOverloading.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Switch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Switch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Switch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="416">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForLoop.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ForLoop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -42,6 +53,9 @@
     <findStrings>
       <find>displayHighScorePosition</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +66,7 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/MethodOverloading.java" />
         <option value="$PROJECT_DIR$/src/Switch.java" />
+        <option value="$PROJECT_DIR$/src/ForLoop.java" />
       </list>
     </option>
   </component>
@@ -123,7 +138,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Switch">
+  <component name="RunManager" selected="Application.ForLoop">
+    <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ForLoop" />
+      <module name="me-JAVA" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -210,9 +232,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MethodOverloading" />
       <item itemvalue="Application.Switch" />
+      <item itemvalue="Application.ForLoop" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForLoop" />
         <item itemvalue="Application.Switch" />
         <item itemvalue="Application.MethodOverloading" />
         <item itemvalue="Application.Main" />
@@ -233,12 +257,20 @@
       <workItem from="1532114524102" duration="4778000" />
       <workItem from="1532255024164" duration="3131000" />
       <workItem from="1532549642433" duration="2707000" />
-      <workItem from="1534667783625" duration="1124000" />
+      <workItem from="1534667783625" duration="2072000" />
     </task>
+    <task id="LOCAL-00001" summary="switch case operator">
+      <created>1534678837782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534678837783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13676000" />
+    <option name="totallyTimeSpent" value="14624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -260,6 +292,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -271,7 +304,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +311,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="switch case operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch case operator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -343,8 +379,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Switch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="416">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
