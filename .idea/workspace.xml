@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9c0dd91-9eec-4862-bdf1-cddc6a8750cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/me-JAVA/Switch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForLoop.java" afterDir="false" />
+    <list default="true" id="a9c0dd91-9eec-4862-bdf1-cddc6a8750cb" name="Default" comment="do while loop">
+      <change afterPath="$PROJECT_DIR$/out/production/me-JAVA/WhileDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WhileDo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/me-JAVA/MethodOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/me-JAVA/MethodOverloading.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +30,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForLoop.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForLoop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ForLoop.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhileDo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WhileDo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <element signature="e#67#68#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/MethodOverloading.java" />
         <option value="$PROJECT_DIR$/src/Switch.java" />
         <option value="$PROJECT_DIR$/src/ForLoop.java" />
+        <option value="$PROJECT_DIR$/src/WhileDo.java" />
       </list>
     </option>
   </component>
@@ -138,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ForLoop">
+  <component name="RunManager" selected="Application.WhileDo">
     <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -164,6 +177,13 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Switch" />
+      <module name="me-JAVA" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="WhileDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="WhileDo" />
       <module name="me-JAVA" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -233,9 +253,11 @@
       <item itemvalue="Application.MethodOverloading" />
       <item itemvalue="Application.Switch" />
       <item itemvalue="Application.ForLoop" />
+      <item itemvalue="Application.WhileDo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhileDo" />
         <item itemvalue="Application.ForLoop" />
         <item itemvalue="Application.Switch" />
         <item itemvalue="Application.MethodOverloading" />
@@ -257,7 +279,7 @@
       <workItem from="1532114524102" duration="4778000" />
       <workItem from="1532255024164" duration="3131000" />
       <workItem from="1532549642433" duration="2707000" />
-      <workItem from="1534667783625" duration="2072000" />
+      <workItem from="1534667783625" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="switch case operator">
       <created>1534678837782</created>
@@ -266,18 +288,46 @@
       <option name="project" value="LOCAL" />
       <updated>1534678837783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="method overload">
+      <created>1534682222970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534682222970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="switch case operator">
+      <created>1534682255317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534682255317</updated>
+    </task>
+    <task id="LOCAL-00004" summary="forLoop operator">
+      <created>1534682267142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534682267142</updated>
+    </task>
+    <task id="LOCAL-00005" summary="forLoop operator">
+      <created>1534682312720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534682312720</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14624000" />
+    <option name="totallyTimeSpent" value="16330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -313,8 +363,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="method overload" />
     <MESSAGE value="switch case operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch case operator" />
+    <MESSAGE value="forLoop operator" />
+    <MESSAGE value="do while loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="do while loop" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -388,6 +441,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WhileDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#67#68#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
