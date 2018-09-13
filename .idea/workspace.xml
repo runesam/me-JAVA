@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c0dd91-9eec-4862-bdf1-cddc6a8750cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Parsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReadingUserInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +19,12 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Parsing.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Parsing.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReadingUserInput.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ReadingUserInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="182">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/src/ForLoop.java" />
         <option value="$PROJECT_DIR$/src/WhileDo.java" />
         <option value="$PROJECT_DIR$/src/Parsing.java" />
+        <option value="$PROJECT_DIR$/src/ReadingUserInput.java" />
       </list>
     </option>
   </component>
@@ -79,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -96,7 +98,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -129,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Parsing">
+  <component name="RunManager" selected="Application.ReadingUserInput">
     <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -137,17 +138,17 @@
       <module name="me-JAVA" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MethodOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MethodOverloading" />
-      <module name="me-JAVA" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
     <configuration name="Parsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Parsing" />
+      <module name="me-JAVA" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ReadingUserInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ReadingUserInput" />
       <module name="me-JAVA" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -227,19 +228,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MethodOverloading" />
       <item itemvalue="Application.Switch" />
       <item itemvalue="Application.ForLoop" />
       <item itemvalue="Application.WhileDo" />
       <item itemvalue="Application.Parsing" />
+      <item itemvalue="Application.ReadingUserInput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingUserInput" />
         <item itemvalue="Application.Parsing" />
         <item itemvalue="Application.WhileDo" />
         <item itemvalue="Application.ForLoop" />
         <item itemvalue="Application.Switch" />
-        <item itemvalue="Application.MethodOverloading" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +258,8 @@
       <workItem from="1532114524102" duration="4778000" />
       <workItem from="1532255024164" duration="3131000" />
       <workItem from="1532549642433" duration="2707000" />
-      <workItem from="1534667783625" duration="4698000" />
+      <workItem from="1534667783625" duration="5784000" />
+      <workItem from="1534750894018" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="switch case operator">
       <created>1534678837782</created>
@@ -301,11 +303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534688407505</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="parsing">
+      <created>1534691734199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534691734199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17250000" />
+    <option name="totallyTimeSpent" value="18344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -313,22 +322,20 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32848486" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32848486" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
-      <window_info anchor="bottom" id="Docker" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
+      <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -340,6 +347,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,9 +362,17 @@
     <MESSAGE value="switch case operator" />
     <MESSAGE value="forLoop operator" />
     <MESSAGE value="do while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="do while loop" />
+    <MESSAGE value="parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="parsing" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ReadingUserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -445,6 +462,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReadingUserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
